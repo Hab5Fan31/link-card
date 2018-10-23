@@ -1,0 +1,16 @@
+html {
+  box-sizing: border-box;
+  background-color: #dcd4cd;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+.link-card {
+display: inline-block;
+background-color: #cabdb2;
+color: #785439;
+text-decoration: none;
+font-size:
+}
