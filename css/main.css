@@ -1,16 +1,46 @@
 html {
   box-sizing: border-box;
-  background-color: #dcd4cd;
+  background-color: #f0eee8;
+  line-height: 1.5;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
 }
 
+h2 {
+  font-family: Dosis, sans-serif;
+  font-size: 1.5rem;
+}
+
 .link-card {
-display: inline-block;
-background-color: #cabdb2;
-color: #785439;
+display: block;
+background-color: #dcd4cd;
+color: #512200;
 text-decoration: none;
-font-size:
+padding: 1em;
+border-radius: 8px;
+border: 3px solid #9a816d;
+}
+
+.link-card:hover {
+  background-color: #cabdb2;
+}
+
+dl {
+  margin: 0 0 1rem;
+  border-top: 2px solid #9a816d;
+  padding-top: 1rem;
+}
+
+dt {
+  display: inline-block;
+  width: 45%;
+}
+
+dd {
+  display: inline-block;
+  width: 45%;
+  margin: 0;
+  font-style: italic;
 }
